@@ -43,7 +43,7 @@ func handleRequest(ctx context.Context, event events.APIGatewayCustomAuthorizerR
 	}
 
 	switch token {
-	case "e;]5;ztanzh3|Bsh7.Lu2Xb)wut3KP9:DT$uvNeR^G9i{vn-CG":
+	case "token_a_validar_tipo_key":
 		return generatePolicy("user", "Allow", event.MethodArn, ""), nil
 	default:
 		return generatePolicy("user", "Deny", event.MethodArn, "Error: Invalid token"), nil

@@ -42,9 +42,9 @@ kompose.*
 #others
 \.sonarqube/
 \.sonarlint/
-*/wwwroot/lib
 packages/
 *.pdf
 *.ruleset
 *.slconfig
 *.zip
+*.7z
